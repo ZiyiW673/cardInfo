@@ -37,6 +37,18 @@ The CLI prints the recognised text for each provided image. Use `--lang` to
 change the OCR language and `--config` to pass advanced options directly to
 Tesseract.
 
+### Web Interface
+
+```bash
+card-info-web --host 0.0.0.0 --port 8000
+```
+
+The command launches a small web application that lets you upload an image from
+your browser and view the extracted text. Use the language and additional
+configuration fields on the page to fine tune the OCR request. The `--host` and
+`--port` flags mirror the underlying development server options if you need to
+adjust how the app is served.
+
 ## Running Tests
 
 ```bash

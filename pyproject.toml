@@ -21,3 +21,4 @@ dev = [
 
 [project.scripts]
 card-info = "card_info.cli:main"
+card-info-web = "card_info.web:main"
